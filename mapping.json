@@ -1,0 +1,88 @@
+{
+  "Artist": {
+    "ArtistId": {"new_name": "artist_id", "type": "int"},
+    "Name": {"new_name": "name", "type": "str"}
+  },
+  "Album": {
+    "AlbumId": {"new_name": "album_id", "type": "int"},
+    "Title": {"new_name": "title", "type": "str"},
+    "ArtistId": {"new_name": "artist_id", "type": "int"}
+  },
+  "Track": {
+    "TrackId": {"new_name": "track_id", "type": "int"},
+    "Name": {"new_name": "name", "type": "str"},
+    "AlbumId": {"new_name": "album_id", "type": "int"},
+    "MediaTypeId": {"new_name": "media_type_id", "type": "int"},
+    "GenreId": {"new_name": "genre_id", "type": "int"},
+    "Composer": {"new_name": "composer", "type": "str"},
+    "Milliseconds": {"new_name": "milliseconds", "type": "int"},
+    "Bytes": {"new_name": "bytes", "type": "int"},
+    "UnitPrice": {"new_name": "unit_price", "type": "float"}
+  },
+  "Playlist": {
+    "PlaylistId": {"new_name": "playlist_id", "type": "int"},
+    "Name": {"new_name": "name", "type": "str"}
+  },
+  "PlaylistTrack": {
+    "PlaylistId": {"new_name": "playlist_id", "type": "int"},
+    "TrackId": {"new_name": "track_id", "type": "int"}
+  },
+  "Employee": {
+    "EmployeeId": {"new_name": "employee_id", "type": "int"},
+    "LastName": {"new_name": "last_name", "type": "str"},
+    "FirstName": {"new_name": "first_name", "type": "str"},
+    "Title": {"new_name": "title", "type": "str"},
+    "ReportsTo": {"new_name": "reports_to", "type": "int"},
+    "BirthDate": {"new_name": "birth_date", "type": "datetime"},
+    "HireDate": {"new_name": "hire_date", "type": "datetime"},
+    "Address": {"new_name": "address", "type": "str"},
+    "City": {"new_name": "city", "type": "str"},
+    "State": {"new_name": "state", "type": "str"},
+    "Country": {"new_name": "country", "type": "str"},
+    "PostalCode": {"new_name": "postal_code", "type": "str"},
+    "Phone": {"new_name": "phone", "type": "str"},
+    "Fax": {"new_name": "fax", "type": "str"},
+    "Email": {"new_name": "email", "type": "str"}
+  },
+  "Customer": {
+    "CustomerId": {"new_name": "customer_id", "type": "int"},
+    "FirstName": {"new_name": "first_name", "type": "str"},
+    "LastName": {"new_name": "last_name", "type": "str"},
+    "Company": {"new_name": "company", "type": "str"},
+    "Address": {"new_name": "address", "type": "str"},
+    "City": {"new_name": "city", "type": "str"},
+    "State": {"new_name": "state", "type": "str"},
+    "Country": {"new_name": "country", "type": "str"},
+    "PostalCode": {"new_name": "postal_code", "type": "str"},
+    "Phone": {"new_name": "phone", "type": "str"},
+    "Fax": {"new_name": "fax", "type": "str"},
+    "Email": {"new_name": "email", "type": "str"},
+    "SupportRepId": {"new_name": "support_rep_id", "type": "int"}
+  },
+  "Invoice": {
+    "InvoiceId": {"new_name": "invoice_id", "type": "int"},
+    "CustomerId": {"new_name": "customer_id", "type": "int"},
+    "InvoiceDate": {"new_name": "invoice_date", "type": "datetime"},
+    "BillingAddress": {"new_name": "billing_address", "type": "str"},
+    "BillingCity": {"new_name": "billing_city", "type": "str"},
+    "BillingState": {"new_name": "billing_state", "type": "str"},
+    "BillingCountry": {"new_name": "billing_country", "type": "str"},
+    "BillingPostalCode": {"new_name": "billing_postal_code", "type": "str"},
+    "Total": {"new_name": "total", "type": "float"}
+  },
+  "InvoiceLine": {
+    "InvoiceLineId": {"new_name": "invoice_line_id", "type": "int"},
+    "InvoiceId": {"new_name": "invoice_id", "type": "int"},
+    "TrackId": {"new_name": "track_id", "type": "int"},
+    "UnitPrice": {"new_name": "unit_price", "type": "float"},
+    "Quantity": {"new_name": "quantity", "type": "int"}
+  },
+  "Genre": {
+    "GenreId": {"new_name": "genre_id", "type": "int"},
+    "Name": {"new_name": "name", "type": "str"}
+  },
+  "MediaType": {
+    "MediaTypeId": {"new_name": "media_type_id", "type": "int"},
+    "Name": {"new_name": "name", "type": "str"}
+  }
+}
